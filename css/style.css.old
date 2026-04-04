@@ -1,0 +1,10 @@
+body {
+    /* Fill; no h-scroll; top-center */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: black url('../images/bg.png') no-repeat scroll center top;
+    background-size: 100% auto;
+    /* Ratio: (1365 / 1024) * 100 = 133.30 */
+    min-height: 134vw;
+}
